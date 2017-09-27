@@ -1,0 +1,17 @@
+{
+  "name": "tdd-playground",
+  "version": "1.0.0",
+  "description": "A place to test and play with ideas around Test Driven Development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*specs.js",
+    "test:watch": "mocha --watch **/*specs.js",
+    "test:cat": "mocha --reporter=nyan --watch **/*specs.js"
+  },
+  "author": "Alison Major",
+  "license": "ISC",
+  "dev-dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
