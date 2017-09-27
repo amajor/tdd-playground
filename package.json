@@ -2,6 +2,7 @@
   "name": "tdd-playground",
   "version": "1.0.0",
   "description": "A place to test and play with ideas around Test Driven Development.",
+  "repository": "amajor/tdd-playground",
   "main": "index.js",
   "scripts": {
     "test": "mocha **/*specs.js",
@@ -10,7 +11,7 @@
   },
   "author": "Alison Major",
   "license": "ISC",
-  "dev-dependencies": {
+  "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^3.5.3"
   }
